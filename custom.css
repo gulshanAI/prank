@@ -1,0 +1,144 @@
+/*! CSS Used from: Embedded */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  border-left: 1px solid #f1f1f1;
+  border-right: 1px solid #f1f1f1;
+  margin: 0 auto;
+  width: 750px;
+}
+.header {
+  background: #93008e;
+  height: 80px;
+  padding: 10px;
+}
+.header-left {
+  float: left;
+  width: 100px;
+}
+.header-right {
+  color: #fff;
+  font-size: 27px;
+  float: left;
+  font-weight: bold;
+  padding: 15px 0;
+  text-align: center;
+  width: 630px;
+}
+.header-right span {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+}
+.content {
+  padding: 10px;
+}
+.heading2 {
+  color: #93008e;
+  text-align: center;
+  font-size: 18px;
+}
+.heading2.incFont {
+  font-size: 28px;
+}
+.result_form {
+  margin: 0 auto;
+  width: 400px;
+}
+.result_form p {
+  text-align: center;
+}
+.result_form ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.result_form ul li {
+  margin-bottom: 15px;
+  text-align: center;
+}
+.result_form ul li label {
+  display: inline-block;
+  text-align: right;
+  width: 102px;
+  margin-right: 5px;
+}
+.result_form ul li .form-control {
+  width: 130px;
+}
+.result_form ul li .inst {
+  color: #666;
+  display: block;
+  font-style: italic;
+}
+.form-control {
+  border: 1px soloid #f1f1f1;
+  padding: 7px;
+}
+.ButtC {
+  border: 1px solid transparent;
+  padding: 5px 10px;
+  background: #0c044d;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Butt {
+  border: 1px solid transparent;
+  padding: 5px 10px;
+  background: #93008e;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.ButtC:hover,
+.Butt:hover {
+  opacity: 0.7;
+}
+.footer {
+  background: #f1f1f1;
+}
+.footer .strip {
+  background: #93008e;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.footer .strip a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer .strip a:hover {
+  color: #e1e1e1;
+  text-decoration: none;
+}
+.disclaimer {
+  font-size: 10px;
+  padding: 5px 10px;
+}
+.styleTable {
+  width: 100%;
+  border: 1px solid #f1f1f1;
+  border-collapse: collapse;
+  color: #292929;
+}
+.styleTable thead {
+  background: #93068e;
+  color: white;
+}
+.styleTable tbody {
+}
+.styleTable td,
+.styleTable th {
+  padding: 6px 8px;
+  border: 1px solid #f1f1f1;
+  border-collapse: collapse;
+}
+.styleTable .center {
+  text-align: center;
+}

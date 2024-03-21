@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="custom.css" rel="stylesheet" />
+    <title>ICIA Exam Result</title>
+  </head>
+  <body>
+    <body data-new-gr-c-s-check-loaded="14.1162.0" data-gr-ext-installed="">
+      <div class="container">
+        <div class="header">
+          <div class="header-left">
+            <img src="logo.png" />
+          </div>
+          <div class="header-right">
+            The Institute of Chartered Accountants of India
+            <span>Examination Results, February 2024</span>
+          </div>
+        </div>
+        <div class="content">
+          <br />
+          <div class="heading2">Foundation - Result</div>
+
+          <div class="result_form">
+            <p>Enter your 6 Digit Roll Number to check your results</p>
+            <form id="form1" name="form1" onsubmit="validateForm">
+              <ul>
+                <li>
+                  <label>Roll No.</label>
+                  <input
+                    maxlength="6"
+                    size="6"
+                    name="rollno"
+                    id="rollno"
+                    class="form-control"
+                    autocomplete="off"
+                  />
+                </li>
+                <li>
+                  <label>Registeration No.</label>
+                  <input
+                    maxlength="6"
+                    size="6"
+                    name="rollno"
+                    id="rollno"
+                    class="form-control"
+                    autocomplete="off"
+                  />
+                </li>
+
+                <li>
+                  <p align="center">Enter the text as shown in the below box</p>
+
+                  <label
+                    ><img src="capcha.png" height="27" align="absmiddle" />
+                    &nbsp;</label
+                  >
+
+                  <input
+                    size="10"
+                    name="scode"
+                    class="form-control"
+                    type="text"
+                    autocomplete="off"
+                  />
+                  <span class="inst"
+                    >(For preventing automated submissions)</span
+                  >
+                </li>
+
+                <li>
+                  <label>&nbsp;</label
+                  ><input
+                    value="CLEAR"
+                    class="ButtC"
+                    name="reset"
+                    type="reset"
+                  />
+                  <a class="Butt" href="result.html">Submit</a>
+
+                  <input
+                    type="hidden"
+                    name="session_value"
+                    value="7bd0f1d8f21a6f11e00d5a0118c5b951"
+                  />
+                </li>
+              </ul>
+            </form>
+          </div>
+          <p align="center"><a href="../">Home</a></p>
+        </div>
+
+        <div class="footer">
+          <div class="strip">
+            <a href="#">Hosted by National Informatics Centre</a>
+          </div>
+          <div class="disclaimer">
+            Disclaimer:The result given is correct at the time of release of the
+            result by the Institute which accepts no responsibility thereafter
+            for errors or omissions caused as a result of their transmission via
+            the Internet or their downloading or printing by the user. No
+            material from this web site can be copied, reproduced, published,
+            uploaded, posted, transmitted or distributed or dealt with in any
+            manner, unless expressly authorized. Users are not permitted to
+            change, modify or prepare derivative works from the content of this
+            site. For any clarifications / confirmation please address your
+            enquiries to Director (Examinations),The Institute of Chartered
+            Accountants of India, 'ICAI BHAWAN', Post Box No. 7112, Indraprastha
+            Marg, New Delhi - 110 002
+          </div>
+        </div>
+      </div>
+
+      <div id="sqrx-content-container">
+        <div class="squarex_ext_modal">
+          <div class="squarex_ext_dialog-container">
+            <div id="module_dialog_root__disposableFileViewer">
+              <div
+                class="squarex_ext_dialog squarex_ext_dark squarex_ext__hidden"
+              ></div>
+            </div>
+            <div id="module_dialog_root__disposableEmails">
+              <div
+                class="squarex_ext_dialog squarex_ext_dark squarex_ext__hidden"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <sqrx-notification-bar
+        id="sqrxNotificationBar"
+        elemtitle="SquareX Safe File Viewer"
+        is-dark-mode=""
+        class="hydrated"
+      ></sqrx-notification-bar>
+      <div id="otherside-root" style="z-index: 2147483647; position: relative">
+        <div id="hyper-main-container">
+          <div id="hyper-menu-shadow-root" style="all: initial"></div>
+          <div id="assistant-shadow-root" style="all: initial"></div>
+        </div>
+      </div>
+      <script>
+        function validateForm(e) {
+          e.preventDefault();
+          window.location.href = "result.html";
+        }
+      </script>
+    </body>
+  </body>
+</html>
